@@ -101,12 +101,12 @@ const FeatureCallout = props => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <a href="https://test.com"><h2>Getting Started</h2></a>
+    <a href={docUrl('getting-started.html', props.language || '')}><h2>Getting Started</h2></a>
     <MarkdownBlock>
       ##
       [```
       $ npm install -g lexigram-cli
-      ```](https://test.com)
+      ```](docs/getting-started.html)
     </MarkdownBlock>
   </div>
 );
@@ -131,7 +131,7 @@ const TryOut = props => (
         content: 'Formerly titled "Kodi-Alexa", this custom skill the ultimate voice remote control for navigating Kodi. It can do anything you can think of (100+ intents).',
         image: imgUrl('kanzi.svg'),
         imageAlign: 'left',
-        title: 'Kanzi',
+        title: '[Kanzi](docs/what-is-kanzi.html)',
       },
     ]}
   </Block>
@@ -144,7 +144,7 @@ const Description = props => (
         content: 'This skill will allow you to stream the entire audio library you have in Kodi through your Alexa devices. Play any playlist, artist, or song without having to have your TV on!',
         image: imgUrl('koko.svg'),
         imageAlign: 'right',
-        title: '[Koko](https://eyylmao.com)',
+        title: '[Koko](docs/what-is-koko.html)',
       },
     ]}
   </Block>

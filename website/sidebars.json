@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Getting Started": ["getting-started"],
-    "Kanzi": ["doc2"],
-    "Koko": ["doc3"]
+    "Getting Started": ["getting-started", "why"],
+    "Kanzi": ["what-is-kanzi", "kanzi-setup", "kanzi-additional-config", "kanzi-deployment"],
+    "Koko": ["what-is-koko", "koko-setup", "koko-additional-config", "koko-deployment"]
   }
 }

@@ -36,13 +36,10 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('getting-started.html', this.props.language)}>
-              Getting Started (or other categories)
+              Getting Started
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.pageUrl('help.html', this.props.language)}>
+              Getting Help
             </a>
           </div>
           <div>
@@ -68,6 +65,12 @@ class Footer extends React.Component {
             </a>
           </div>
         </section>
+
+        <div style={{textAlign: 'center', margin: 20}}>
+          <img src="/img/kanzi.svg" width="80" alt="Kanzi"></img>
+          <img src="/img/lexigram.svg" width="80" alt="Koko"></img>
+          <img src="/img/koko.svg" width="80" alt="Lexigram"></img>
+        </div>
 
         <section className="copyright">
           Copyright &copy; {currentYear} Joe Ipson

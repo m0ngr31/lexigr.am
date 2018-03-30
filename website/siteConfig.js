@@ -17,7 +17,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'getting-started', label: 'Docs'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {blog: false, label: 'Blog'},
   ],
   users,
   /* path to images for header/footer */
@@ -55,7 +55,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your template.
   repoUrl: 'https://github.com/m0ngr31/kodi-alexa',
   /* On page navigation for the current documentation page */
-  // onPageNav: 'separate',
+  onPageNav: 'separate',
 };
 
 module.exports = siteConfig;
