@@ -4,9 +4,9 @@ title: What is Kanzi?
 sidebar_label: What is Kanzi?
 ---
 
-This is a skill for Amazon Alexa that allows you to control one or more instances of [Kodi](https://kodi.tv) with your voice.
+This is a skill for Amazon Alexa that allows you to control one or more instances of Kodi with your voice.
 
-## Kodi-Alexa in Action
+## Kanzi in Action
 
 [![Amazon Echo - Kodi integration (demo 1)](http://i.imgur.com/BrXDYm6.png)](https://www.youtube.com/watch?v=Xar4byrlEvo "Amazon Echo - Kodi integration (demo 1)")
 

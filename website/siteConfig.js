@@ -51,9 +51,10 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
+  editUrl: 'https://github.com/m0ngr31/lexigr.am/edit/master/docs/',
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/m0ngr31/kodi-alexa',
+  repoUrl: 'https://github.com/m0ngr31/kanzi',
   /* On page navigation for the current documentation page */
   onPageNav: 'separate',
 };

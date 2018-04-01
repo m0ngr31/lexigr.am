@@ -80,7 +80,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href={docUrl('getting-started.html', language)}>Getting started</Button>
-            <Button href="https://github.com/m0ngr31/kodi-alexa">Github</Button>
+            <Button href="https://github.com/m0ngr31/kanzi">Github</Button>
           </PromoSection>
         </div>
       </SplashContainer>

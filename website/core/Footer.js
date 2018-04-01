@@ -44,7 +44,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://mediacenterio-slack.herokuapp.com/">Developer Chat</a>
+            <a href="https://lexigram-slack.herokuapp.com/">Developer Chat</a>
             <a href="https://twitter.com/m0ngr31" target="_blank">
               Twitter
             </a>
@@ -52,12 +52,12 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             <a href={this.props.config.baseUrl + 'blog'}>Blog</a>
-            <a href="https://github.com/m0ngr31/kodi-alexa">GitHub</a>
+            <a href="https://github.com/m0ngr31/kanzi">GitHub</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/m0ngr31/kodi-alexa/stargazers"
+              data-count-href="/m0ngr31/kanzi/stargazers"
               data-show-count={true}
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
