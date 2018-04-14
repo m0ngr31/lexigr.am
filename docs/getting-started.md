@@ -4,16 +4,20 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-## Initial computer setup
+## Amazon account setup
+Before you can add a custom skill to Alexa, Amazon requires that you have a 'developer' account. You can get everything setup [here](http://developer.amazon.com/). Just login with your normal Amazon account and it'll walk you through a few steps you have to take.
+
+## Computer setup
 The recommended way of setting up the skill involves using a command line interface that we have developed. To use this program, a framework called NodeJS is needed for it to run.
 
 One of the the easiest way to get Node is to use nvm.
  - For Linux/Mac users: click [here](https://github.com/creationix/nvm).
- - For Windows users: click [here](https://github.com/coreybutler/nvm-windows).
+ - For Windows users: click [here](https://github.com/coreybutler/nvm-windows). After installing on Windows, please reboot your computer.
 
-Once you have that installed, run this command:
+Once you have that installed, run these commands:
 ``` bash
-nvm install 8
+nvm install 8.11.1
+nvm use 8.11.1
 ```
 This will install Node version 8 which will allow us to run the cli.
 
@@ -24,7 +28,7 @@ npm install -g lexigram-cli
 ```
 
 ### Initializing cli
-Now, use the cli to login to Amazon:
+Now, use the cli to login to Amazon. If the prompt asks you if you would like to stop setup because it can't find AWS credentials, just type `n` and hit enter.
 ``` bash
 lexigram login
 ```
@@ -40,7 +44,6 @@ OR
 ``` bash
 lexigram init-skill koko
 ```
-
 
 
 ## Kodi setup

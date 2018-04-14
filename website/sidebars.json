@@ -1,9 +1,9 @@
 {
   "docs": {
-    "About": ["why", "what-is-kanzi", "what-is-koko"],
+    "About": ["why", "what-is-kanzi", "what-is-koko", "how-to-help"],
     "Getting Started": ["getting-started"],
     "Configuration": ["configuration", "additional-config"],
     "Hosting Setup": ["choose-backend", "heroku", "aws-lambda", "self-hosting"],
-    "Skill Deployment": ["deploying-skill"]
+    "Skill Deployment": ["deploying-skill", "upgrading"]
   }
 }
