@@ -17,6 +17,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'getting-started', label: 'Docs'},
     {page: 'help', label: 'Help'},
+    {search: true}
     // {blog: false, label: 'Blog'},
   ],
   users,
@@ -28,6 +29,10 @@ const siteConfig = {
   colors: {
     primaryColor: '#25b3e8',
     secondaryColor: '#4d4d4d',
+  },
+  algolia: {
+    apiKey: "15c69e6f361ca70616c54470f02522ba",
+    indexName: "lexigr"
   },
   /* custom fonts for website */
   /*fonts: {
