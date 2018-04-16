@@ -16,7 +16,7 @@ After you have set up an Heroku account, click on one of the buttons below to pr
 Skill|Deploy
 -----|-------
 Kanzi|[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/m0ngr31/kanzi)
-Koko|Not available yet
+Koko|[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/m0ngr31/koko)
 
 
 

@@ -6,6 +6,7 @@ sidebar_label: How to help
 
 Here are the Github repositories for all the projects Lexigram encompasses:
  - [Kanzi](https://github.com/m0ngr31/kanzi)
+ - [Koko](https://github.com/m0ngr31/koko)
  - [lexigram-cli](https://github.com/m0ngr31/lexigram-cli)
  - [lexigr.am (this site)](https://github.com/m0ngr31/lexigr.am)
  - [Kodi-Voice](https://github.com/m0ngr31/kodi-voice)

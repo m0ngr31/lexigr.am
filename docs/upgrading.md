@@ -28,7 +28,7 @@ Just delete the existing app from your Heroku Dashboard, and create another with
 Skill|Deploy
 -----|-------
 Kanzi|[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/m0ngr31/kanzi)
-Koko|Not available yet
+Koko|[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/m0ngr31/koko)
 
 
 ## AWS Lambda
