@@ -28,11 +28,15 @@ npm install -g lexigram-cli
 ```
 
 ### Initializing cli
-Now, use the cli to login to Amazon. If the prompt asks you if you would like to stop setup because it can't find AWS credentials, just type `n` and hit enter.
+Now, use the cli to login to Amazon. **Make sure you use the name 'default'.** If the prompt asks you if you would like to continue even though it can't find AWS credentials, just type `y` and hit enter.
 ``` bash
 lexigram login
 ```
-Download an empty config file that you'll use later:
+If you can't login due to a port conflict issue, try this command instead:
+``` bash
+lexigram login --no-browser true
+```
+Let's keep going by downloading an empty config file that you'll use later:
 ``` bash
 lexigram init-config
 ```
