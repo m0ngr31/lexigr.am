@@ -6,8 +6,6 @@ sidebar_label: What is Koko?
 
 This is a skill for Amazon Alexa that allows you to stream your music from a Kodi box to your Alexa device.
 
-**It is not quite ready for release.**
-
 This skill supports streaming music from your Kodi device over the internet to Alexa. Unfortunately, session data between commands when playing music is not saved by Alexa. So you have to use a database to keep track of everything. I selected MongoDB to handle this since it runs on everything. If you don't want to run it on your own server, you can use a service like [mLab](https://www.mlab.com/) which provides a free tier that works great for this.
 
 Disclaimer: **You must accept the agreement in the config saying that I'm not liable for stolen information since your username and password for Kodi will be stored in plaintext in a database and will be transferred over the internet to a HTTPS proxy server for you to have this functionality.**
