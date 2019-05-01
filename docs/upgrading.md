@@ -41,3 +41,12 @@ OR
 lexigram generate-function koko
 ```
 ![Upload](https://i.imgur.com/z0DhOex.png "Upload")
+
+## Docker
+
+To update the version deployed, just restart the docker container, if the version differs from that previously deployed it will automatically redeploy the new version.  You can up/downgrade at will by tagging your docker run/compose command with one of the tags [here](https://hub.docker.com/r/linuxserver/kanzi/tags), for example:
+
+`latest` will grab the latest version for your architecture
+`04.20.2019-61d3ba4-ls5` would grab the Kanzi release from `04.20.2019`
+
+New docker images will be published automatically when there are updated releases of Kanzi, or when there are updates to base packages in the docker container.
